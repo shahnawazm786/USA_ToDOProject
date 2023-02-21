@@ -19,8 +19,8 @@ public class EmployeeClass {
 		this.address=address;
 		this.gender=gender;
 	}*/
-	
 	public EmployeeClass() {
+	
 		this.emp_no=100;
 		this.emp_name="India";
 		this.phone="1234567";

@@ -1,0 +1,19 @@
+package org;
+
+public class LogicalOperatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// AND (&), OR (|), NOT(!)
+		// true or false
+		// is used with conditional  operator
+		// it combines more than one condition and accordingly give the result
+		
+		boolean res= 100>50 & 50>25 & 25 >20 & 20>10;
+		System.out.println("Result is ->"+res);
+		res= 100>50 & 50>25 & 25 >20 & 20<10;
+		System.out.println("Result is ->"+res); // false
+
+	}
+
+}

@@ -11,4 +11,11 @@ public class UserLoginClass {
 			return "User and Password not correct";
 		}
 	}
+	boolean verifyUser(String userName) {
+		
+		return true;
+	}
+	boolean verifyPassword(String password) {
+		return false;
+	}
 }

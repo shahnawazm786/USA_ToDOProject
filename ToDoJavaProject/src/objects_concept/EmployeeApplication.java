@@ -20,6 +20,8 @@ public class EmployeeApplication {
 		
 		EmployeeClass e=new EmployeeClass();
 		e.show();
+		BankCustomerClass bank=new BankCustomerClass();
+		
 		
 	}
 }

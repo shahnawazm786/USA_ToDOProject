@@ -10,8 +10,16 @@ public class IfElseIfConstructExample {
 		int total=0;
 		System.out.println("Enter total marks of students ->");
 		total=scan.nextInt();
+		System.out.println("Enter the name of student");
+		String str=scan.next();
+		
+		
+		System.out.println("Name of student -> "+ str);
+		System.out.println("Marks of the Student -> "+total);
+		System.out.print("Grade is -> ");
 		
 		if(total>91 & total<=100) {
+		
 			System.out.println("Excellent");
 		}
 		else if(total>81 & total<=90) {

@@ -15,6 +15,10 @@ public class ForLoopforObjectExample {
 				System.out.println(s);
 			}
 		}
+		// find vowel from String
+		for(char c : str.toCharArray()) {
+			System.out.println(c);
+		}
 	}
 
 }

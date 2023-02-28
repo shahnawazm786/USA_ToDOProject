@@ -24,4 +24,9 @@ public class VariableModifierExample {
 	// Sub/child class - Yes
 	// Same Package in different class - No
 	// Different Package  - No
+	private  double salary=0.0;
+	 void showSalary() { // protected and public
+		System.out.println(this.salary);
+	}
+	
 }

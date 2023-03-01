@@ -1,14 +1,16 @@
 package abstractandinterface;
 
-public class Calculus implements IBook{
+public class Calculus implements IBook,IBookPages{
 
 	private String Wname;
 	private String bName;
 	private String aName;
-	public Calculus(String writerName,String bookName,String authorName) {
+	private int pageNo;
+	public Calculus(String writerName,String bookName,String authorName,int page) {
 		this.Wname=writerName;
 		this.bName=bookName;
 		this.aName=authorName;
+		this.pageNo=page;
 	}
 	@Override
 	public String writeName() {
@@ -29,6 +31,9 @@ public class Calculus implements IBook{
 	}
 	public String publisherName() {
 		return publisherName;
+	}
+	@Override public int pageNo() {
+		return this.pageNo;
 	}
 
 }

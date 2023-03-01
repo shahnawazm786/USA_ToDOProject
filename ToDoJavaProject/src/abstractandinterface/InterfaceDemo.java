@@ -10,6 +10,7 @@ public class InterfaceDemo {
 		System.out.println(cal.writeName());
 		System.out.println(cal.bookName());
 		System.out.println(cal.pageNo());
+		System.out.println(cal.address());
 	}
 
 }

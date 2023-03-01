@@ -1,6 +1,6 @@
 package abstractandinterface;
 
-public interface IBook {
+public interface IBook extends IAddress {
 	final String publisherName="NCERT"; // final
 	String writeName(); // abstract static and public
 	String bookName(); 

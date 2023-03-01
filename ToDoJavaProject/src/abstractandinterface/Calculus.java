@@ -2,9 +2,9 @@ package abstractandinterface;
 
 public class Calculus implements IBook{
 
-	String Wname;
-	String bName;
-	String aName;
+	private String Wname;
+	private String bName;
+	private String aName;
 	public Calculus(String writerName,String bookName,String authorName) {
 		this.Wname=writerName;
 		this.bName=bookName;

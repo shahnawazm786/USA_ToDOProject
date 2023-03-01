@@ -1,27 +1,27 @@
 package abstractandinterface;
 
-public class OracleBook extends ABook {
+public class CBook extends ABook{
 
 	@Override
 	String writeName() {
 		// TODO Auto-generated method stub
-		return "Abc";
+		return "Kanitkar";
 	}
 
 	@Override
 	String bookName() {
 		// TODO Auto-generated method stub
-		return "Oracle Database";
+		return "Basic C";
 	}
 	
-	public int price() {
-		return 500;
+	public String typeOfBook() {
+		return "Computer Book";
 	}
 
 	@Override
 	public String address() {
 		// TODO Auto-generated method stub
-		return "USA";
+		return "India";
 	}
 
 	@Override
@@ -29,5 +29,4 @@ public class OracleBook extends ABook {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-
 }

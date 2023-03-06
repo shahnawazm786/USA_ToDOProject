@@ -3,7 +3,7 @@ package inheritance;
 public class VendorClass extends Address{
 	private String StoreLocation;
 	public VendorClass(String name, String phone, String email,String location) {
-		super(name, phone, email);
+		//super(name, phone, email);
 		// TODO Auto-generated constructor stub
 		this.StoreLocation=location;
 	}

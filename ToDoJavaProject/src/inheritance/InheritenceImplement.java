@@ -10,6 +10,11 @@ public class InheritenceImplement {
 		System.out.println("------------------- Vendor Details ---------------");
 		VendorClass vs=new VendorClass("Flipkart", "7777777", "sales@flipkart.com", "New Delhi");
 		vs.showVendorDetails();
+		Dog d=new Dog();
+		d.speak();
+		d.eat();
+		
+		
 	}
 
 }

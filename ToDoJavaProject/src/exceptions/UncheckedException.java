@@ -14,7 +14,13 @@ public class UncheckedException {
 		total_sales=scan.nextInt();
 		System.out.println("Enter total no customer made for current month");
 		no_of_customer=scan.nextInt();
+		try {
 		commission=total_sales/no_of_customer;
+		}catch(ArithmeticException ae) {
+			System.out.println();
+			ae.printStackTrace();
+		}
+		System.out.println("Commission"+commission);
 	}
 
 }

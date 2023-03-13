@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class CheckedExceptionUsingTryCatchBlock {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		File file;
 		FileInputStream stream=null;
@@ -18,10 +18,7 @@ public class CheckedExceptionUsingTryCatchBlock {
 			fe.printStackTrace();
 			System.out.println("File not found!!!!");
 		}
-		finally
-		{
-			System.out.println("I have executed at the last");
-		}
+		
 		int c;
 		try {
 		while((c=stream.read())!=-1) {
@@ -30,6 +27,12 @@ public class CheckedExceptionUsingTryCatchBlock {
 		}catch(IOException ie) {
 			ie.printStackTrace();
 			System.out.println("File not found!!!!");
+		}
+		finally
+		{
+			stream.close();
+			System.out.println();
+			System.out.println("I have executed at the last");
 		}
 		
 	}

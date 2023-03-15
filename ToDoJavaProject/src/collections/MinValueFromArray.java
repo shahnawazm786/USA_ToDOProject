@@ -1,6 +1,6 @@
 package collections;
 
-public class MaxValueFromArray {
+public class MinValueFromArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -8,10 +8,11 @@ public class MaxValueFromArray {
 		int temp=value[0];
 		System.out.println("First value in the array is "+temp);
 		for(int j=0;j<value.length;j++) {
-			if(value[j]>temp)
+			if(value[j]<temp)
 				temp=value[j];
 		}
-		System.out.println("Max value in the array is "+temp);
+		System.out.println("Min value in the array is "+temp);
 	}
-
 }
+
+

@@ -46,6 +46,9 @@ public class ListInterfaceExample {
 		li.add(2, "Python");
 		System.out.println(li);
 		
+		List<Integer> l=Arrays.asList(10,20,30,40,50);
+		System.out.println(l);
+		
 	}
 
 }

@@ -14,3 +14,315 @@
 2023-03-09 08:25:36,705 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2023-03-13 08:33:14,993 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2023-03-15 08:30:49,099 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-16 08:42:24,765 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-16 23:13:18,739 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-03-22 09:25:37,507 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-22 09:42:02,451 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ToDoJavaProject:ToDoJavaProject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\ToDoJavaProject\pom.xml.
+2023-03-22 09:42:03,968 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ToDoJavaProject/src
+2023-03-22 09:42:03,969 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ToDoJavaProject/src/test/java because it overlaps with /ToDoJavaProject/src
+2023-03-22 09:42:04,077 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-22 09:42:04,338 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ToDoJavaProject:ToDoJavaProject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\ToDoJavaProject\pom.xml.
+2023-03-22 09:42:04,460 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ToDoJavaProject/src
+2023-03-22 09:42:04,461 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ToDoJavaProject/src/test/java because it overlaps with /ToDoJavaProject/src
+2023-03-22 09:42:04,707 [Worker-34: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-03-22 09:43:03,775 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-22 09:43:04,155 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: ToDoJavaProject:ToDoJavaProject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\ToDoJavaProject\pom.xml.
+2023-03-22 09:43:09,969 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ToDoJavaProject/src
+2023-03-22 09:43:09,970 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /ToDoJavaProject/src/test/java because it overlaps with /ToDoJavaProject/src
+2023-03-22 09:43:10,217 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2023-03-22 09:49:53,811 [Worker-34: Launching SeleniumExample01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-22 09:49:53,812 [Worker-34: Launching SeleniumExample01] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\main\resources
+2023-03-22 09:49:53,815 [Worker-34: Launching SeleniumExample01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-22 09:49:53,815 [Worker-34: Launching SeleniumExample01] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\test\resources
+2023-03-22 09:51:50,692 [Worker-54: Launching SeleniumExample01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-22 09:51:50,693 [Worker-54: Launching SeleniumExample01] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\main\resources
+2023-03-22 09:51:50,694 [Worker-54: Launching SeleniumExample01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-22 09:51:50,695 [Worker-54: Launching SeleniumExample01] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\test\resources
+2023-03-22 10:42:08,347 [Worker-58: Launching SeleniumExample01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-22 10:42:08,348 [Worker-58: Launching SeleniumExample01] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\main\resources
+2023-03-22 10:42:08,349 [Worker-58: Launching SeleniumExample01] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-22 10:42:08,350 [Worker-58: Launching SeleniumExample01] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\test\resources
+2023-03-23 14:18:50,255 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-28 06:35:22,015 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-28 06:46:58,661 [Worker-46: Creating project "mavenproject"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-03-28 06:46:59,362 [Worker-46: Creating project "mavenproject"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-03-28 06:46:59,363 [Worker-46: Creating project "mavenproject"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-03-28 06:46:59,363 [Worker-46: Creating project "mavenproject"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-03-28 06:46:59,363 [Worker-46: Creating project "mavenproject"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-03-28 06:50:14,201 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 06:50:14,441 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-03-28 06:50:14,535 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-03-28 06:50:14,535 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-03-28 06:50:14,535 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-03-28 06:50:14,535 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-03-28 06:50:14,628 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-03-28 06:50:56,358 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 06:50:56,500 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-03-28 06:50:56,600 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-03-28 06:50:56,600 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-03-28 06:50:56,601 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-03-28 06:50:56,601 [Worker-51: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-03-28 06:50:56,690 [Worker-51: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-03-28 06:51:23,656 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 06:51:23,786 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-03-28 06:51:23,895 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-03-28 06:51:23,895 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-03-28 06:51:23,896 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-03-28 06:51:23,896 [Worker-49: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-03-28 06:51:23,951 [Worker-49: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-03-28 06:56:16,692 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-28 06:56:16,854 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-03-28 06:56:18,585 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.8.3/selenium-java-4.8.3-sources.jar
+2023-03-28 06:56:18,687 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-java/4.8.3/selenium-java-4.8.3-sources.jar
+2023-03-28 06:56:18,858 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-java:4.8.3
+2023-03-28 06:56:19,060 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.8.3/selenium-api-4.8.3-sources.jar
+2023-03-28 06:56:19,270 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-api/4.8.3/selenium-api-4.8.3-sources.jar
+2023-03-28 06:56:19,296 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-api:4.8.3
+2023-03-28 06:56:19,501 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.8.3/selenium-chrome-driver-4.8.3-sources.jar
+2023-03-28 06:56:19,617 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chrome-driver/4.8.3/selenium-chrome-driver-4.8.3-sources.jar
+2023-03-28 06:56:19,654 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-chrome-driver:4.8.3
+2023-03-28 06:56:19,847 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-03-28 06:56:19,848 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-03-28 06:56:19,848 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-03-28 06:56:19,848 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-03-28 06:56:19,853 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.8.3/selenium-chromium-driver-4.8.3-sources.jar
+2023-03-28 06:56:20,030 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-chromium-driver/4.8.3/selenium-chromium-driver-4.8.3-sources.jar
+2023-03-28 06:56:20,078 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-chromium-driver:4.8.3
+2023-03-28 06:56:20,094 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-03-28 06:56:20,273 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.8.3/selenium-json-4.8.3-sources.jar
+2023-03-28 06:56:20,488 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-json/4.8.3/selenium-json-4.8.3-sources.jar
+2023-03-28 06:56:20,520 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-json:4.8.3
+2023-03-28 06:56:20,722 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.8.3/selenium-manager-4.8.3-sources.jar
+2023-03-28 06:56:20,834 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-manager/4.8.3/selenium-manager-4.8.3-sources.jar
+2023-03-28 06:56:20,869 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-manager:4.8.3
+2023-03-28 06:56:21,058 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v109/4.8.3/selenium-devtools-v109-4.8.3-sources.jar
+2023-03-28 06:56:21,417 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v109/4.8.3/selenium-devtools-v109-4.8.3-sources.jar
+2023-03-28 06:56:21,487 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v109:4.8.3
+2023-03-28 06:56:21,679 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v110/4.8.3/selenium-devtools-v110-4.8.3-sources.jar
+2023-03-28 06:56:21,976 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v110/4.8.3/selenium-devtools-v110-4.8.3-sources.jar
+2023-03-28 06:56:22,023 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v110:4.8.3
+2023-03-28 06:56:22,220 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v111/4.8.3/selenium-devtools-v111-4.8.3-sources.jar
+2023-03-28 06:56:22,559 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v111/4.8.3/selenium-devtools-v111-4.8.3-sources.jar
+2023-03-28 06:56:22,598 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v111:4.8.3
+2023-03-28 06:56:22,808 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.8.3/selenium-devtools-v85-4.8.3-sources.jar
+2023-03-28 06:56:23,117 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-devtools-v85/4.8.3/selenium-devtools-v85-4.8.3-sources.jar
+2023-03-28 06:56:23,169 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-devtools-v85:4.8.3
+2023-03-28 06:56:23,383 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.8.3/selenium-edge-driver-4.8.3-sources.jar
+2023-03-28 06:56:23,519 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-edge-driver/4.8.3/selenium-edge-driver-4.8.3-sources.jar
+2023-03-28 06:56:23,546 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-edge-driver:4.8.3
+2023-03-28 06:56:23,748 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.8.3/selenium-firefox-driver-4.8.3-sources.jar
+2023-03-28 06:56:23,995 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/4.8.3/selenium-firefox-driver-4.8.3-sources.jar
+2023-03-28 06:56:24,039 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-firefox-driver:4.8.3
+2023-03-28 06:56:24,239 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.8.3/selenium-http-4.8.3-sources.jar
+2023-03-28 06:56:24,486 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-http/4.8.3/selenium-http-4.8.3-sources.jar
+2023-03-28 06:56:24,528 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-http:4.8.3
+2023-03-28 06:56:24,729 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1-sources.jar
+2023-03-28 06:56:24,927 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1-sources.jar
+2023-03-28 06:56:25,041 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for dev.failsafe:failsafe:3.3.1
+2023-03-28 06:56:25,228 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.8.3/selenium-ie-driver-4.8.3-sources.jar
+2023-03-28 06:56:25,347 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-ie-driver/4.8.3/selenium-ie-driver-4.8.3-sources.jar
+2023-03-28 06:56:25,387 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-ie-driver:4.8.3
+2023-03-28 06:56:25,587 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.8.3/selenium-remote-driver-4.8.3-sources.jar
+2023-03-28 06:56:25,837 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/4.8.3/selenium-remote-driver-4.8.3-sources.jar
+2023-03-28 06:56:25,871 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-remote-driver:4.8.3
+2023-03-28 06:56:26,071 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.90.Final/netty-buffer-4.1.90.Final-sources.jar
+2023-03-28 06:56:26,277 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.90.Final/netty-buffer-4.1.90.Final-sources.jar
+2023-03-28 06:56:26,354 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-buffer:4.1.90.Final
+2023-03-28 06:56:26,564 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.90.Final/netty-codec-http-4.1.90.Final-sources.jar
+2023-03-28 06:56:26,826 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.90.Final/netty-codec-http-4.1.90.Final-sources.jar
+2023-03-28 06:56:26,864 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec-http:4.1.90.Final
+2023-03-28 06:56:27,047 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.90.Final/netty-codec-4.1.90.Final-sources.jar
+2023-03-28 06:56:27,319 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.90.Final/netty-codec-4.1.90.Final-sources.jar
+2023-03-28 06:56:27,355 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-codec:4.1.90.Final
+2023-03-28 06:56:27,552 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.90.Final/netty-handler-4.1.90.Final-sources.jar
+2023-03-28 06:56:27,781 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.90.Final/netty-handler-4.1.90.Final-sources.jar
+2023-03-28 06:56:27,819 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-handler:4.1.90.Final
+2023-03-28 06:56:28,036 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.90.Final/netty-common-4.1.90.Final-sources.jar
+2023-03-28 06:56:28,350 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.90.Final/netty-common-4.1.90.Final-sources.jar
+2023-03-28 06:56:28,404 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-common:4.1.90.Final
+2023-03-28 06:56:28,599 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.90.Final/netty-transport-classes-epoll-4.1.90.Final-sources.jar
+2023-03-28 06:56:28,744 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.90.Final/netty-transport-classes-epoll-4.1.90.Final-sources.jar
+2023-03-28 06:56:28,780 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-classes-epoll:4.1.90.Final
+2023-03-28 06:56:28,980 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.90.Final/netty-transport-classes-kqueue-4.1.90.Final-sources.jar
+2023-03-28 06:56:29,134 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.90.Final/netty-transport-classes-kqueue-4.1.90.Final-sources.jar
+2023-03-28 06:56:29,168 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-classes-kqueue:4.1.90.Final
+2023-03-28 06:56:29,369 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.90.Final/netty-transport-native-epoll-4.1.90.Final-sources.jar
+2023-03-28 06:56:29,473 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.90.Final/netty-transport-native-epoll-4.1.90.Final-sources.jar
+2023-03-28 06:56:29,527 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-native-epoll:4.1.90.Final
+2023-03-28 06:56:29,716 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.90.Final/netty-transport-native-kqueue-4.1.90.Final-sources.jar
+2023-03-28 06:56:29,843 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-kqueue/4.1.90.Final/netty-transport-native-kqueue-4.1.90.Final-sources.jar
+2023-03-28 06:56:29,923 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-native-kqueue:4.1.90.Final
+2023-03-28 06:56:30,121 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.90.Final/netty-transport-native-unix-common-4.1.90.Final-sources.jar
+2023-03-28 06:56:30,255 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.90.Final/netty-transport-native-unix-common-4.1.90.Final-sources.jar
+2023-03-28 06:56:30,290 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport-native-unix-common:4.1.90.Final
+2023-03-28 06:56:30,499 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.90.Final/netty-transport-4.1.90.Final-sources.jar
+2023-03-28 06:56:30,766 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.90.Final/netty-transport-4.1.90.Final-sources.jar
+2023-03-28 06:56:30,809 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-transport:4.1.90.Final
+2023-03-28 06:56:31,008 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.90.Final/netty-resolver-4.1.90.Final-sources.jar
+2023-03-28 06:56:31,208 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.90.Final/netty-resolver-4.1.90.Final-sources.jar
+2023-03-28 06:56:31,351 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.netty:netty-resolver:4.1.90.Final
+2023-03-28 06:56:31,557 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.24.0/opentelemetry-api-1.24.0-sources.jar
+2023-03-28 06:56:31,724 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api/1.24.0/opentelemetry-api-1.24.0-sources.jar
+2023-03-28 06:56:31,798 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api:1.24.0
+2023-03-28 06:56:31,993 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.24.0/opentelemetry-context-1.24.0-sources.jar
+2023-03-28 06:56:32,213 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-context/1.24.0/opentelemetry-context-1.24.0-sources.jar
+2023-03-28 06:56:32,372 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-context:1.24.0
+2023-03-28 06:56:32,579 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.24.0/opentelemetry-exporter-logging-1.24.0-sources.jar
+2023-03-28 06:56:32,713 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-exporter-logging/1.24.0/opentelemetry-exporter-logging-1.24.0-sources.jar
+2023-03-28 06:56:32,767 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-exporter-logging:1.24.0
+2023-03-28 06:56:32,978 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.24.0/opentelemetry-sdk-metrics-1.24.0-sources.jar
+2023-03-28 06:56:33,162 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-metrics/1.24.0/opentelemetry-sdk-metrics-1.24.0-sources.jar
+2023-03-28 06:56:33,193 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-metrics:1.24.0
+2023-03-28 06:56:33,417 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.24.0-alpha/opentelemetry-sdk-logs-1.24.0-alpha-sources.jar
+2023-03-28 06:56:33,646 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-logs/1.24.0-alpha/opentelemetry-sdk-logs-1.24.0-alpha-sources.jar
+2023-03-28 06:56:33,815 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-logs:1.24.0-alpha
+2023-03-28 06:56:34,027 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-logs/1.24.0-alpha/opentelemetry-api-logs-1.24.0-alpha-sources.jar
+2023-03-28 06:56:34,142 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-logs/1.24.0-alpha/opentelemetry-api-logs-1.24.0-alpha-sources.jar
+2023-03-28 06:56:34,170 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api-logs:1.24.0-alpha
+2023-03-28 06:56:34,367 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.24.0-alpha/opentelemetry-api-events-1.24.0-alpha-sources.jar
+2023-03-28 06:56:34,484 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-api-events/1.24.0-alpha/opentelemetry-api-events-1.24.0-alpha-sources.jar
+2023-03-28 06:56:34,516 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-api-events:1.24.0-alpha
+2023-03-28 06:56:34,715 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.24.0/opentelemetry-sdk-common-1.24.0-sources.jar
+2023-03-28 06:56:34,902 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-common/1.24.0/opentelemetry-sdk-common-1.24.0-sources.jar
+2023-03-28 06:56:35,039 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-common:1.24.0
+2023-03-28 06:56:35,239 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.24.0/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0-sources.jar
+2023-03-28 06:56:35,374 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.24.0/opentelemetry-sdk-extension-autoconfigure-spi-1.24.0-sources.jar
+2023-03-28 06:56:35,473 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi:1.24.0
+2023-03-28 06:56:35,673 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.24.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha-sources.jar
+2023-03-28 06:56:35,814 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.24.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha-sources.jar
+2023-03-28 06:56:35,924 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-extension-autoconfigure:1.24.0-alpha
+2023-03-28 06:56:36,115 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.24.0/opentelemetry-sdk-trace-1.24.0-sources.jar
+2023-03-28 06:56:36,252 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk-trace/1.24.0/opentelemetry-sdk-trace-1.24.0-sources.jar
+2023-03-28 06:56:36,281 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk-trace:1.24.0
+2023-03-28 06:56:36,475 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.24.0/opentelemetry-sdk-1.24.0-sources.jar
+2023-03-28 06:56:36,584 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-sdk/1.24.0/opentelemetry-sdk-1.24.0-sources.jar
+2023-03-28 06:56:36,616 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-sdk:1.24.0
+2023-03-28 06:56:36,831 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.24.0-alpha/opentelemetry-semconv-1.24.0-alpha-sources.jar
+2023-03-28 06:56:36,950 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/opentelemetry/opentelemetry-semconv/1.24.0-alpha/opentelemetry-semconv-1.24.0-alpha-sources.jar
+2023-03-28 06:56:37,010 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.opentelemetry:opentelemetry-semconv:1.24.0-alpha
+2023-03-28 06:56:37,204 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.2/byte-buddy-1.14.2-sources.jar
+2023-03-28 06:56:37,871 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.14.2/byte-buddy-1.14.2-sources.jar
+2023-03-28 06:56:37,976 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.14.2
+2023-03-28 06:56:38,180 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.8.3/selenium-safari-driver-4.8.3-sources.jar
+2023-03-28 06:56:38,340 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-safari-driver/4.8.3/selenium-safari-driver-4.8.3-sources.jar
+2023-03-28 06:56:38,394 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-safari-driver:4.8.3
+2023-03-28 06:56:38,581 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.8.3/selenium-support-4.8.3-sources.jar
+2023-03-28 06:56:38,730 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/4.8.3/selenium-support-4.8.3-sources.jar
+2023-03-28 06:56:38,773 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.seleniumhq.selenium:selenium-support:4.8.3
+2023-03-28 07:00:53,273 [Worker-56: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:00:53,276 [Worker-56: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:00:53,278 [Worker-56: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:00:53,279 [Worker-56: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:01:41,989 [Worker-54: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:01:41,991 [Worker-54: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:01:41,992 [Worker-54: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:01:41,994 [Worker-54: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:02:33,686 [Worker-56: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:02:33,687 [Worker-56: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:02:33,688 [Worker-56: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:02:33,689 [Worker-56: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:03:29,474 [Worker-50: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:03:29,475 [Worker-50: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:03:29,477 [Worker-50: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:03:29,478 [Worker-50: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:10:45,909 [Worker-58: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:10:45,910 [Worker-58: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:10:45,910 [Worker-58: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:10:45,911 [Worker-58: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:11:44,023 [Worker-56: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:11:44,024 [Worker-56: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:11:44,025 [Worker-56: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:11:44,026 [Worker-56: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:12:22,539 [Worker-57: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:12:22,539 [Worker-57: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:12:22,540 [Worker-57: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:12:22,541 [Worker-57: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:13:05,043 [Worker-57: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:13:05,044 [Worker-57: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:13:05,045 [Worker-57: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:13:05,046 [Worker-57: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:13:43,505 [Worker-60: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:13:43,506 [Worker-60: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:13:43,507 [Worker-60: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:13:43,508 [Worker-60: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:17:19,131 [Worker-61: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:17:19,132 [Worker-61: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:17:19,133 [Worker-61: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:17:19,133 [Worker-61: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:18:19,881 [Worker-64: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:18:19,881 [Worker-64: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:18:19,882 [Worker-64: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:18:19,883 [Worker-64: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:20:44,408 [Worker-59: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:20:44,409 [Worker-59: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:20:44,410 [Worker-59: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:20:44,411 [Worker-59: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:21:13,072 [Worker-64: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:21:13,073 [Worker-64: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:21:13,074 [Worker-64: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:21:13,075 [Worker-64: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:22:21,479 [Worker-63: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:22:21,480 [Worker-63: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:22:21,480 [Worker-63: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:22:21,481 [Worker-63: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:26:24,849 [Worker-63: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:26:24,851 [Worker-63: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:26:24,853 [Worker-63: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:26:24,856 [Worker-63: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:27:27,112 [Worker-67: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:27:27,113 [Worker-67: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:27:27,114 [Worker-67: Launching FirstSeleniumExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:27:27,116 [Worker-67: Launching FirstSeleniumExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:31:35,801 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:31:35,802 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:31:35,802 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:31:35,804 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:33:57,789 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:33:57,789 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:33:57,790 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:33:57,791 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:34:24,505 [Worker-62: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:34:24,506 [Worker-62: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:34:24,506 [Worker-62: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:34:24,507 [Worker-62: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:34:51,634 [Worker-70: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:34:51,636 [Worker-70: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:34:51,637 [Worker-70: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:34:51,638 [Worker-70: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:35:17,059 [Worker-70: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:35:17,060 [Worker-70: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:35:17,062 [Worker-70: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:35:17,064 [Worker-70: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:37:02,539 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:37:02,540 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:37:02,541 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:37:02,542 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:37:27,983 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:37:27,983 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:37:27,985 [Worker-67: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:37:27,996 [Worker-67: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:38:56,410 [Worker-71: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:38:56,411 [Worker-71: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:38:56,412 [Worker-71: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:38:56,426 [Worker-71: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:45:15,814 [Worker-72: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:45:15,815 [Worker-72: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:45:15,816 [Worker-72: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:45:15,830 [Worker-72: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:46:33,319 [Worker-72: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:46:33,320 [Worker-72: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:46:33,320 [Worker-72: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:46:33,336 [Worker-72: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:48:04,700 [Worker-77: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:48:04,701 [Worker-77: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:48:04,701 [Worker-77: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:48:04,702 [Worker-77: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:48:33,811 [Worker-79: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:48:33,812 [Worker-79: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:48:33,812 [Worker-79: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:48:33,818 [Worker-79: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 07:48:52,900 [Worker-78: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:48:52,901 [Worker-78: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-28 07:48:52,902 [Worker-78: Launching ImplicitWaitExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-28 07:48:52,914 [Worker-78: Launching ImplicitWaitExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-28 12:03:28,092 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

@@ -116,4 +116,7 @@ public class SecondClass {
 		color.sendKeys(Keys.DOWN);
 		driver.findElement(By.name("my-colors")).clear();
 	}
+	public static void datePicker(WebDriver driver) {
+		
+	}
 }

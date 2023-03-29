@@ -50,6 +50,10 @@ public class SecondClass {
 		}
 	}
 	public static void readonlyText(WebDriver driver) {
+		WebElement readonlyText = driver.findElement(By.name("my-readonly"));
+		String str = readonlyText.getText();
+		System.out.println(str);
+		readonlyText.clear();
 		
 	}
 }

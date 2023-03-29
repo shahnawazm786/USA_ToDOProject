@@ -10,6 +10,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.Select;
 
 public class SecondClass {
@@ -27,10 +28,12 @@ public class SecondClass {
 		//readonlyText(driver);
 		//linkText(driver);
 		selectDropDown(driver);
-		Thread.sleep(5000);
-		inputSelectDropDown(driver);
+		
+		//inputSelectDropDown(driver);
 		fileUpload(driver);
-		//driver.quit();
+		colorPicker(driver);
+		Thread.sleep(5000);
+		driver.quit();
 	}
 	public static void textBoxSendKeys(WebDriver driver)throws InterruptedException {
 		WebElement textBox1 = driver.findElement(By.id("my-text-id"));
@@ -105,5 +108,12 @@ public class SecondClass {
 	public static void fileUpload(WebDriver driver) {
 		WebElement file = driver.findElement(By.name("my-file"));
 		file.sendKeys("c:/files/demo.txt");
+	}
+	public static void colorPicker(WebDriver driver) {
+		WebElement color = driver.findElement(By.name("my-colors"));
+		color.click();
+		color.sendKeys(Keys.DOWN);
+		color.sendKeys(Keys.DOWN);
+		driver.findElement(By.name("my-colors")).clear();
 	}
 }

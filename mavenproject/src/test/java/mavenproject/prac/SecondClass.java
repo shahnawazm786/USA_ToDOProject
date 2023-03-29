@@ -31,7 +31,7 @@ public class SecondClass {
 		selectDropDown(driver);
 		
 		inputSelectDropDown(driver);
-		//fileUpload(driver);
+		fileUpload(driver);
 		//colorPicker(driver);
 		//datePicker(driver);
 		//rangePicker(driver);

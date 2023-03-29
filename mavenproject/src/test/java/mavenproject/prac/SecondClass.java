@@ -135,7 +135,7 @@ public class SecondClass {
 		action.click(range).sendKeys(Keys.LEFT).build().perform();
 		
 	}
-	public static void getElementByCSSSelector(WebDriver driver) throws Exception{
+	public static void getElementByCSSSelector(WebDriver driver) throws InterruptedException{
 		String ele="input[name='my-text']";
 		WebElement cssElement = driver.findElement(By.cssSelector(ele));
 		cssElement.sendKeys("Hello CSS selector");

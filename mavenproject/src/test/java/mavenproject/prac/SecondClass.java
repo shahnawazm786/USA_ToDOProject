@@ -28,7 +28,7 @@ public class SecondClass {
 		disabledText(driver);
 		readonlyText(driver);
 		linkText(driver);
-		//selectDropDown(driver);
+		selectDropDown(driver);
 		
 		//inputSelectDropDown(driver);
 		//fileUpload(driver);

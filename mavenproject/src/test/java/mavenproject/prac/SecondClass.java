@@ -25,7 +25,7 @@ public class SecondClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		driver.manage().window().maximize();
 		textBoxSendKeys(driver);
-		//disabledText(driver);
+		disabledText(driver);
 		//readonlyText(driver);
 		//linkText(driver);
 		//selectDropDown(driver);

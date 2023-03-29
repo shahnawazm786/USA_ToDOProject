@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
+import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +20,8 @@ public class SecondClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		//textBoxSendKeys(driver);
 		//disabledText(driver);
-		readonlyText(driver);
+		//readonlyText(driver);
+		linkText(driver);
 		Thread.sleep(5000);
 		driver.quit();
 	}
@@ -54,7 +56,18 @@ public class SecondClass {
 		WebElement readonlyText = driver.findElement(By.name("my-readonly"));
 		String str = readonlyText.getText();
 		System.out.println(str);
+		try {
 		readonlyText.clear();
-		
+		}catch(InvalidElementStateException inve) {
+			System.out.println("Readonly text can't be cleared");
+		}
+		readonlyText.click();
+	}
+	public static void linkText(WebDriver driver) {
+		WebElement link = driver.findElement(By.linkText("Return to index"));
+		link.click();
+		driver.navigate().back();
+		WebElement link2 = driver.findElement(By.partialLinkText("Return"));
+		link2.click();
 	}
 }

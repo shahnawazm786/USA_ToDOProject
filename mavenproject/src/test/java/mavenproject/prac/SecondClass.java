@@ -38,7 +38,7 @@ public class SecondClass {
 		getElementByCSSSelector(driver);
 		getElementByClass(driver);
 		Thread.sleep(5000);
-		//driver.quit();
+		driver.quit();
 	}
 	public static void textBoxSendKeys(WebDriver driver)throws InterruptedException {
 		WebElement textBox1 = driver.findElement(By.id("my-text-id"));

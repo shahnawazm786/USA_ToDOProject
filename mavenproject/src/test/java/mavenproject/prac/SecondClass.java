@@ -10,6 +10,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.Select;
 
@@ -30,10 +31,12 @@ public class SecondClass {
 		selectDropDown(driver);
 		
 		//inputSelectDropDown(driver);
-		fileUpload(driver);
-		colorPicker(driver);
+		//fileUpload(driver);
+		//colorPicker(driver);
+		//datePicker(driver);
+		rangePicker(driver);
 		Thread.sleep(5000);
-		driver.quit();
+		//driver.quit();
 	}
 	public static void textBoxSendKeys(WebDriver driver)throws InterruptedException {
 		WebElement textBox1 = driver.findElement(By.id("my-text-id"));
@@ -117,6 +120,18 @@ public class SecondClass {
 		driver.findElement(By.name("my-colors")).clear();
 	}
 	public static void datePicker(WebDriver driver) {
+		WebElement datePic = driver.findElement(By.name("my-date"));
+		datePic.click();
+		driver.findElement(By.xpath("//td[text()='4']")).click();
+	}
+	public static void rangePicker(WebDriver driver) {
+		WebElement range = driver.findElement(By.name("my-range"));
+		//range.click();
+		Actions action=new Actions(driver);
+		/*action.dragAndDropBy(range, 0, -200).dragAndDropBy(range, -200,100).
+		build().perform();*/
+		action.click(range).sendKeys(Keys.LEFT).build().perform();
+		action.click(range).sendKeys(Keys.LEFT).build().perform();
 		
 	}
 }

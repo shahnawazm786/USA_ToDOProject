@@ -18,7 +18,8 @@ public class SecondClass {
 		driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		//textBoxSendKeys(driver);
-		disabledText(driver);
+		//disabledText(driver);
+		readonlyText(driver);
 		Thread.sleep(5000);
 		driver.quit();
 	}

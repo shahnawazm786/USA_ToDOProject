@@ -35,7 +35,7 @@ public class SecondClass {
 		colorPicker(driver);
 		datePicker(driver);
 		rangePicker(driver);
-		//getElementByCSSSelector(driver);
+		getElementByCSSSelector(driver);
 		getElementByClass(driver);
 		Thread.sleep(5000);
 		//driver.quit();

@@ -32,7 +32,7 @@ public class SecondClass {
 		
 		inputSelectDropDown(driver);
 		fileUpload(driver);
-		//colorPicker(driver);
+		colorPicker(driver);
 		//datePicker(driver);
 		//rangePicker(driver);
 		//getElementByCSSSelector(driver);

@@ -134,4 +134,7 @@ public class SecondClass {
 		action.click(range).sendKeys(Keys.LEFT).build().perform();
 		
 	}
+	public static void getElementByCSSSelector(WebDriver driver) {
+		
+	}
 }

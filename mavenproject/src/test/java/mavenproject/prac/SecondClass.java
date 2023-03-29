@@ -24,7 +24,7 @@ public class SecondClass {
 		driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		driver.manage().window().maximize();
-		//textBoxSendKeys(driver);
+		textBoxSendKeys(driver);
 		//disabledText(driver);
 		//readonlyText(driver);
 		//linkText(driver);
@@ -34,8 +34,9 @@ public class SecondClass {
 		//fileUpload(driver);
 		//colorPicker(driver);
 		//datePicker(driver);
-		rangePicker(driver);
-		getElementByCSSSelector(driver);
+		//rangePicker(driver);
+		//getElementByCSSSelector(driver);
+		getElementByClass(driver);
 		Thread.sleep(5000);
 		//driver.quit();
 	}
@@ -151,5 +152,11 @@ public class SecondClass {
 		Thread.sleep(5000);
 		
 	}
-	
+	public static void getElementByClass(WebDriver driver) {
+		List<WebElement> list = driver.findElements(By.className("w-100"));
+		System.out.println(list.size());
+		for(WebElement e:list) {
+			System.out.println(e.getTagName());
+		}
+	}
 }

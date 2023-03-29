@@ -30,7 +30,7 @@ public class SecondClass {
 		linkText(driver);
 		selectDropDown(driver);
 		
-		//inputSelectDropDown(driver);
+		inputSelectDropDown(driver);
 		//fileUpload(driver);
 		//colorPicker(driver);
 		//datePicker(driver);

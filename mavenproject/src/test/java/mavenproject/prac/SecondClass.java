@@ -28,13 +28,14 @@ public class SecondClass {
 		//disabledText(driver);
 		//readonlyText(driver);
 		//linkText(driver);
-		selectDropDown(driver);
+		//selectDropDown(driver);
 		
 		//inputSelectDropDown(driver);
 		//fileUpload(driver);
 		//colorPicker(driver);
 		//datePicker(driver);
 		rangePicker(driver);
+		getElementByCSSSelector(driver);
 		Thread.sleep(5000);
 		//driver.quit();
 	}
@@ -134,7 +135,21 @@ public class SecondClass {
 		action.click(range).sendKeys(Keys.LEFT).build().perform();
 		
 	}
-	public static void getElementByCSSSelector(WebDriver driver) {
+	public static void getElementByCSSSelector(WebDriver driver) throws Exception{
+		String ele="input[name='my-text']";
+		WebElement cssElement = driver.findElement(By.cssSelector(ele));
+		cssElement.sendKeys("Hello CSS selector");
+		Thread.sleep(5000);
+		cssElement.clear();		
+		// second way
+		WebElement css2 = driver.findElement(By.cssSelector("input#my-text-id"));
+		css2.sendKeys("Second way of css selector");
+		Thread.sleep(5000);
+		cssElement.clear();	
+		WebElement css3 = driver.findElement(By.cssSelector("#my-text-id"));
+		css3.sendKeys("Third way of css selector");
+		Thread.sleep(5000);
 		
 	}
+	
 }

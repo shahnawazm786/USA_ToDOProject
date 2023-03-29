@@ -26,7 +26,7 @@ public class SecondClass {
 		driver.manage().window().maximize();
 		textBoxSendKeys(driver);
 		disabledText(driver);
-		//readonlyText(driver);
+		readonlyText(driver);
 		//linkText(driver);
 		//selectDropDown(driver);
 		

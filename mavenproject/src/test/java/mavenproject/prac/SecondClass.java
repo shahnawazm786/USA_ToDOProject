@@ -29,6 +29,7 @@ public class SecondClass {
 		selectDropDown(driver);
 		Thread.sleep(5000);
 		inputSelectDropDown(driver);
+		fileUpload(driver);
 		//driver.quit();
 	}
 	public static void textBoxSendKeys(WebDriver driver)throws InterruptedException {

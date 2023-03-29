@@ -370,3 +370,15 @@
 2023-03-29 15:27:25,246 [Worker-62: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-03-29 15:27:25,247 [Worker-62: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-03-29 15:27:25,249 [Worker-62: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-29 15:31:23,063 [Worker-64: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-29 15:31:23,064 [Worker-64: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-29 15:31:23,065 [Worker-64: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-29 15:31:23,066 [Worker-64: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-29 15:32:08,937 [Worker-53: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-29 15:32:08,937 [Worker-53: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-29 15:32:08,938 [Worker-53: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-29 15:32:08,939 [Worker-53: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-03-29 15:32:52,853 [Worker-64: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-29 15:32:52,853 [Worker-64: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-03-29 15:32:52,854 [Worker-64: Launching SecondClass] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-03-29 15:32:52,855 [Worker-64: Launching SecondClass] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

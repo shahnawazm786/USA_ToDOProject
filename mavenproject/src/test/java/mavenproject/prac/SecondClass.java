@@ -27,7 +27,7 @@ public class SecondClass {
 		textBoxSendKeys(driver);
 		disabledText(driver);
 		readonlyText(driver);
-		//linkText(driver);
+		linkText(driver);
 		//selectDropDown(driver);
 		
 		//inputSelectDropDown(driver);

@@ -72,5 +72,6 @@ public class SecondClass {
 		WebElement link2 = driver.findElement(By.partialLinkText("Return"));
 		link2.click();
 		Thread.sleep(5000);
+		
 	}
 }

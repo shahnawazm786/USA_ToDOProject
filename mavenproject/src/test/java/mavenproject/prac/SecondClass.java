@@ -101,4 +101,8 @@ public class SecondClass {
 		//Select sel=new Select(driver.findElement(By.id("San Francisco")));
 		//sel.selectByValue("San Francisco");
 	}
+	public static void fileUpload(WebDriver driver) {
+		WebElement file = driver.findElement(By.name("my-file"));
+		file.sendKeys("c:/files/demo.txt");
+	}
 }

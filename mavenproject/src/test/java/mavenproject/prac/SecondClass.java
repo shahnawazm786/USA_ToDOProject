@@ -34,7 +34,7 @@ public class SecondClass {
 		fileUpload(driver);
 		colorPicker(driver);
 		datePicker(driver);
-		//rangePicker(driver);
+		rangePicker(driver);
 		//getElementByCSSSelector(driver);
 		getElementByClass(driver);
 		Thread.sleep(5000);

@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.InvalidElementStateException;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,12 +21,14 @@ public class SecondClass {
 		WebDriver driver=new ChromeDriver();// inheritance method overriding
 		driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
+		driver.manage().window().maximize();
 		//textBoxSendKeys(driver);
 		//disabledText(driver);
 		//readonlyText(driver);
 		//linkText(driver);
 		selectDropDown(driver);
 		Thread.sleep(5000);
+		inputSelectDropDown(driver);
 		//driver.quit();
 	}
 	public static void textBoxSendKeys(WebDriver driver)throws InterruptedException {
@@ -81,12 +84,21 @@ public class SecondClass {
 		
 		Select sel=new Select(driver.findElement(By.name("my-select")));
 		sel.selectByValue("1");
-		sel.deselectAll();
+		//sel.deselectAll();
 		
 		List<WebElement> list = sel.getOptions();
 		for(WebElement e:list) {
 			System.out.println(e.getText());
 		}
 		Thread.sleep(5000);
+	}
+	public static void inputSelectDropDown(WebDriver driver) {
+		WebElement input = driver.findElement(By.name("my-datalist"));
+		input.click();
+		input.sendKeys("San Francisco");
+		input.click();
+		//input.sendKeys(Keys.ENTER);
+		//Select sel=new Select(driver.findElement(By.id("San Francisco")));
+		//sel.selectByValue("San Francisco");
 	}
 }

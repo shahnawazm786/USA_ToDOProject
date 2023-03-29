@@ -1,6 +1,7 @@
 package mavenproject.prac;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
@@ -8,6 +9,7 @@ import org.openqa.selenium.InvalidElementStateException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class SecondClass {
 
@@ -21,9 +23,10 @@ public class SecondClass {
 		//textBoxSendKeys(driver);
 		//disabledText(driver);
 		//readonlyText(driver);
-		linkText(driver);
+		//linkText(driver);
+		selectDropDown(driver);
 		Thread.sleep(5000);
-		driver.quit();
+		//driver.quit();
 	}
 	public static void textBoxSendKeys(WebDriver driver)throws InterruptedException {
 		WebElement textBox1 = driver.findElement(By.id("my-text-id"));
@@ -73,5 +76,17 @@ public class SecondClass {
 		link2.click();
 		Thread.sleep(5000);
 		
+	}
+	public static void selectDropDown(WebDriver driver) throws InterruptedException {
+		
+		Select sel=new Select(driver.findElement(By.name("my-select")));
+		sel.selectByValue("1");
+		sel.deselectAll();
+		
+		List<WebElement> list = sel.getOptions();
+		for(WebElement e:list) {
+			System.out.println(e.getText());
+		}
+		Thread.sleep(5000);
 	}
 }

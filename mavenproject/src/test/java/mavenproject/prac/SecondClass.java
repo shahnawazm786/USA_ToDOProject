@@ -63,11 +63,14 @@ public class SecondClass {
 		}
 		readonlyText.click();
 	}
-	public static void linkText(WebDriver driver) {
+	public static void linkText(WebDriver driver)throws InterruptedException {
 		WebElement link = driver.findElement(By.linkText("Return to index"));
 		link.click();
+		Thread.sleep(5000);
 		driver.navigate().back();
+		Thread.sleep(5000);
 		WebElement link2 = driver.findElement(By.partialLinkText("Return"));
 		link2.click();
+		Thread.sleep(5000);
 	}
 }

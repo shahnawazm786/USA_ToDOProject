@@ -17,7 +17,11 @@ public class ElementAccessExample {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		driver.manage().window().maximize();
 		//inputByName(driver);
-		inpuByID(driver);
+		//inpuByID(driver);
+		//inpuByCssSelector(driver);
+		//inpuByClass(driver);
+		//anchorByPartialText(driver);
+		anchorByLinkText(driver);
 
 	}
 	public static void inputByName(WebDriver driver) {
@@ -33,5 +37,24 @@ public class ElementAccessExample {
 		input.sendKeys("Automation By ID");
 		
 	}
-
+	public static void inpuByCssSelector(WebDriver driver) {
+		WebElement input = driver.findElement(By.cssSelector("input[myprop='myvalue']"));
+		input.clear();
+		input.sendKeys("Automation By css selector");
+		
+	}
+	public static void inpuByClass(WebDriver driver) {
+		WebElement input = driver.findElement(By.className("form-control"));
+		input.clear();
+		input.sendKeys("Automation By css selector");
+	}
+	public static void anchorByPartialText(WebDriver driver) {
+		WebElement anchor = driver.findElement(By.partialLinkText("Return"));
+		anchor.click();
+	}
+	public static void anchorByLinkText(WebDriver driver) {
+		WebElement anchor = driver.findElement(By.partialLinkText("Return to index"));
+		anchor.click();
+	}
+	
 }

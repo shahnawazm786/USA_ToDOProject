@@ -41,6 +41,7 @@ public class ElementAccessExample {
 		input.sendKeys("Automation By ID");
 		
 	}
+	
 	public static void inpuByCssSelector(WebDriver driver) {
 		WebElement input = driver.findElement(By.cssSelector("input[myprop='myvalue']"));
 		input.clear();

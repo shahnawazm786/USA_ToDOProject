@@ -23,7 +23,7 @@ public class SecondClass {
 		WebDriver driver=new ChromeDriver();// inheritance method overriding
 		driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();		
 		textBoxSendKeys(driver);
 		disabledText(driver);
 		readonlyText(driver);

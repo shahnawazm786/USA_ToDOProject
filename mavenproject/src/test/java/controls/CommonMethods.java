@@ -19,6 +19,7 @@ public class CommonMethods {
 	public static WebElement findElementByLocator(WebDriver driver,String typeOfAccess,String locator)
 	{
 		WebElement ele=null;
+		
 		if(typeOfAccess.equalsIgnoreCase("id")) {
 			ele = driver.findElement(By.id(locator));
 		}else if(typeOfAccess.equalsIgnoreCase("name")) {

@@ -22,7 +22,9 @@ public class DisabledInputText {
 		disableInputClearInputText(driver);
 		Thread.sleep(5);
 		disableInputClickEvent(driver);
+		disableInputGetText(driver);
 		Thread.sleep(5);
+		driver.quit();
 	}
 	public static void disableInputEnterText(WebDriver driver) {
 		WebElement ele = driver.findElement(By.name("my-disabled"));
@@ -53,5 +55,9 @@ public class DisabledInputText {
 	public static void disableInputClickEvent(WebDriver driver) {
 		WebElement ele = driver.findElement(By.name("my-disabled"));
 		ele.click();
+	}
+	public static void disableInputGetText(WebDriver driver) {
+		WebElement ele = driver.findElement(By.name("my-disabled"));
+		System.out.println("Text ->  "+ ele.getText());
 	}
 }

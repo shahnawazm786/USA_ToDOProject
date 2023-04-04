@@ -571,3 +571,47 @@
 2023-04-03 09:40:20,540 [Worker-62: Launching ElementAccessExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-04-03 09:40:20,541 [Worker-62: Launching ElementAccessExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-03 09:40:20,541 [Worker-62: Launching ElementAccessExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:36:18,380 [Worker-73: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:36:18,383 [Worker-73: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:36:18,384 [Worker-73: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:36:18,386 [Worker-73: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:40:09,935 [Worker-56: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:40:09,936 [Worker-56: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:40:09,938 [Worker-56: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:40:09,940 [Worker-56: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:40:35,232 [Worker-74: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:40:35,234 [Worker-74: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:40:35,239 [Worker-74: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:40:35,243 [Worker-74: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:42:42,097 [Worker-73: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:42:42,098 [Worker-73: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:42:42,099 [Worker-73: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:42:42,101 [Worker-73: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:46:25,917 [Worker-56: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:46:25,921 [Worker-56: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:46:25,922 [Worker-56: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:46:25,925 [Worker-56: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:46:50,409 [Worker-73: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:46:50,410 [Worker-73: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:46:50,411 [Worker-73: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:46:50,414 [Worker-73: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 08:49:49,922 [Worker-56: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:49:49,923 [Worker-56: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 08:49:49,924 [Worker-56: Launching DisabledInputText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 08:49:49,926 [Worker-56: Launching DisabledInputText] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:05:44,198 [Worker-72: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:05:44,200 [Worker-72: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:05:44,202 [Worker-72: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:05:44,204 [Worker-72: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:07:36,797 [Worker-73: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:07:36,798 [Worker-73: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:07:36,798 [Worker-73: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:07:36,812 [Worker-73: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:08:56,114 [Worker-56: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:08:56,114 [Worker-56: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:08:56,115 [Worker-56: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:08:56,116 [Worker-56: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:10:05,105 [Worker-56: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:10:05,106 [Worker-56: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:10:05,107 [Worker-56: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:10:05,108 [Worker-56: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

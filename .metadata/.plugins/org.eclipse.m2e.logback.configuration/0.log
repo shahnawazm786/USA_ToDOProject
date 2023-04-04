@@ -663,3 +663,23 @@
 2023-04-04 09:37:57,795 [Worker-73: Launching RadioButtonExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-04-04 09:37:57,795 [Worker-73: Launching RadioButtonExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-04 09:37:57,797 [Worker-73: Launching RadioButtonExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:40:55,478 [Worker-75: Launching ColorPickerExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:40:55,494 [Worker-75: Launching ColorPickerExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:40:55,496 [Worker-75: Launching ColorPickerExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:40:55,497 [Worker-75: Launching ColorPickerExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:41:20,355 [Worker-73: Launching ColorPickerExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:41:20,356 [Worker-73: Launching ColorPickerExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:41:20,358 [Worker-73: Launching ColorPickerExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:41:20,359 [Worker-73: Launching ColorPickerExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:44:41,276 [Worker-75: Launching RangeExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:44:41,277 [Worker-75: Launching RangeExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:44:41,279 [Worker-75: Launching RangeExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:44:41,281 [Worker-75: Launching RangeExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:45:38,852 [Worker-56: Launching RangeExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:45:38,853 [Worker-56: Launching RangeExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:45:38,853 [Worker-56: Launching RangeExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:45:38,855 [Worker-56: Launching RangeExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:45:56,296 [Worker-75: Launching RangeExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:45:56,297 [Worker-75: Launching RangeExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:45:56,297 [Worker-75: Launching RangeExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:45:56,298 [Worker-75: Launching RangeExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

@@ -615,3 +615,15 @@
 2023-04-04 09:10:05,106 [Worker-56: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-04-04 09:10:05,107 [Worker-56: Launching ReadOnlyTextBoxExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-04 09:10:05,108 [Worker-56: Launching ReadOnlyTextBoxExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:16:00,996 [Worker-72: Launching DropDownBoxEample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:16:00,999 [Worker-72: Launching DropDownBoxEample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:16:01,002 [Worker-72: Launching DropDownBoxEample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:16:01,005 [Worker-72: Launching DropDownBoxEample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:18:10,736 [Worker-72: Launching DropDownBoxEample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:18:10,736 [Worker-72: Launching DropDownBoxEample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:18:10,736 [Worker-72: Launching DropDownBoxEample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:18:10,737 [Worker-72: Launching DropDownBoxEample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-04 09:19:47,598 [Worker-72: Launching DropDownBoxEample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:19:47,600 [Worker-72: Launching DropDownBoxEample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-04 09:19:47,601 [Worker-72: Launching DropDownBoxEample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-04 09:19:47,602 [Worker-72: Launching DropDownBoxEample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

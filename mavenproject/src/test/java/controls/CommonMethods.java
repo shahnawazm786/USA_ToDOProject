@@ -1,6 +1,7 @@
 package controls;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -37,6 +38,34 @@ public class CommonMethods {
 			
 		}else if(typeOfAccess.equalsIgnoreCase("tagname")) {
 			ele= driver.findElement(By.tagName(locator));
+		}else
+		{
+			return ele;
+		}
+		return ele;
+	}
+	
+	public static List<WebElement> findElementByLocators(WebDriver driver,String typeOfAccess,String locator)
+	{
+		List<WebElement> ele=null;
+		
+		if(typeOfAccess.equalsIgnoreCase("id")) {
+			ele = driver.findElements(By.id(locator));
+		}else if(typeOfAccess.equalsIgnoreCase("name")) {
+			ele= driver.findElements(By.name(locator));
+		}else if(typeOfAccess.equalsIgnoreCase("cssSelector")) {
+			ele= driver.findElements(By.cssSelector(locator));
+		}else if(typeOfAccess.equalsIgnoreCase("class")) {
+			ele= driver.findElements(By.className(locator));
+		}else if(typeOfAccess.equalsIgnoreCase("xpath")) {
+			ele=driver.findElements(By.xpath(locator));
+		}else if(typeOfAccess.equalsIgnoreCase("partial link text")) {
+			ele=driver.findElements(By.partialLinkText(locator));
+		}else if(typeOfAccess.equalsIgnoreCase("link text")) {
+			ele= driver.findElements(By.linkText(locator));
+			
+		}else if(typeOfAccess.equalsIgnoreCase("tagname")) {
+			ele= driver.findElements(By.tagName(locator));
 		}else
 		{
 			return ele;

@@ -756,3 +756,28 @@
 2023-04-06 09:43:47,018 [Worker-113: Launching FrameExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-04-06 09:43:47,020 [Worker-113: Launching FrameExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-06 09:43:47,022 [Worker-113: Launching FrameExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 08:46:42,850 [Worker-118: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:46:42,852 [Worker-118: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 08:46:42,853 [Worker-118: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:46:42,854 [Worker-118: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 08:47:14,929 [Worker-128: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:47:14,930 [Worker-128: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 08:47:14,931 [Worker-128: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:47:14,932 [Worker-128: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 08:50:37,867 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.9; built: 2022-03-30T16:46:32.527Z; git: a9eaf8d5d73369acf610ce88f850c0d56c4b1113; jvm 11.0.16.1+1-LTS-1
+2023-04-07 08:50:37,907 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-04-07 08:50:37,939 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6d2033a{/help,null,AVAILABLE}
+2023-04-07 08:50:37,970 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@261c534{HTTP/1.1, (http/1.1)}{127.0.0.1:59553}
+2023-04-07 08:50:37,972 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@563646ee{STARTING}[10.0.9,sto=0] @346766855ms
+2023-04-07 08:51:32,069 [Worker-130: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:51:32,070 [Worker-130: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 08:51:32,071 [Worker-130: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:51:32,073 [Worker-130: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 08:55:59,017 [Worker-123: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:55:59,017 [Worker-123: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 08:55:59,018 [Worker-123: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:55:59,019 [Worker-123: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 08:56:52,845 [Worker-134: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:56:52,847 [Worker-134: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 08:56:52,848 [Worker-134: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 08:56:52,849 [Worker-134: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

@@ -808,3 +808,46 @@
 2023-04-07 09:17:01,027 [Worker-136: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
 2023-04-07 09:17:01,027 [Worker-136: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
 2023-04-07 09:17:01,215 [Worker-136: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2023-04-07 09:26:50,423 [Worker-161: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:26:50,424 [Worker-161: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:26:50,426 [Worker-161: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:26:50,427 [Worker-161: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:27:20,662 [Worker-161: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-04-07 09:27:20,817 [Worker-161: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-04-07 09:27:21,053 [Worker-161: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-04-07 09:27:21,053 [Worker-161: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-04-07 09:27:21,053 [Worker-161: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-04-07 09:27:21,053 [Worker-161: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-04-07 09:27:21,158 [Worker-161: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-04-07 09:27:51,537 [Worker-162: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:27:51,538 [Worker-162: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:27:51,539 [Worker-162: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:27:51,540 [Worker-162: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:30:52,505 [Worker-161: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:30:52,507 [Worker-161: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:30:52,508 [Worker-161: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:30:52,509 [Worker-161: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:33:40,336 [Worker-159: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:33:40,337 [Worker-159: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:33:40,338 [Worker-159: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:33:40,339 [Worker-159: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:36:27,467 [Worker-162: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:36:27,468 [Worker-162: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:36:27,469 [Worker-162: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:36:27,469 [Worker-162: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:37:16,673 [Worker-156: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:37:16,674 [Worker-156: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:37:16,675 [Worker-156: Launching TestNGExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:37:16,676 [Worker-156: Launching TestNGExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:38:37,276 [Worker-161: Launching TestNGExample.Dashboard] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:38:37,277 [Worker-161: Launching TestNGExample.Dashboard] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:38:37,278 [Worker-161: Launching TestNGExample.Dashboard] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:38:37,279 [Worker-161: Launching TestNGExample.Dashboard] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:40:58,159 [Worker-162: Launching SimpleTestCase] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:40:58,160 [Worker-162: Launching SimpleTestCase] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:40:58,162 [Worker-162: Launching SimpleTestCase] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:40:58,163 [Worker-162: Launching SimpleTestCase] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:42:42,051 [Worker-159: Launching SimpleTestCase] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:42:42,052 [Worker-159: Launching SimpleTestCase] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:42:42,054 [Worker-159: Launching SimpleTestCase] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:42:42,055 [Worker-159: Launching SimpleTestCase] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

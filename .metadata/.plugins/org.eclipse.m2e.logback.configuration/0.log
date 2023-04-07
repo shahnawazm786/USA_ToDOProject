@@ -781,3 +781,23 @@
 2023-04-07 08:56:52,847 [Worker-134: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-04-07 08:56:52,848 [Worker-134: Launching MethodsExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-07 08:56:52,849 [Worker-134: Launching MethodsExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:06:32,655 [Worker-136: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:06:32,656 [Worker-136: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:06:32,657 [Worker-136: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:06:32,658 [Worker-136: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:08:28,430 [Worker-134: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:08:28,433 [Worker-134: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:08:28,434 [Worker-134: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:08:28,436 [Worker-134: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:10:13,942 [Worker-136: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:10:13,943 [Worker-136: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:10:13,945 [Worker-136: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:10:13,946 [Worker-136: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:10:59,281 [Worker-123: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:10:59,282 [Worker-123: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:10:59,283 [Worker-123: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:10:59,284 [Worker-123: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 09:12:19,097 [Worker-136: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:12:19,098 [Worker-136: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-04-07 09:12:19,099 [Worker-136: Launching JavaScriptExecutorExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-04-07 09:12:19,100 [Worker-136: Launching JavaScriptExecutorExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

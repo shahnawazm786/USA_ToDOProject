@@ -916,3 +916,7 @@
 2023-05-04 09:18:10,984 [Worker-71: Launching TestNG_Example_Annotations] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-05-04 09:18:10,985 [Worker-71: Launching TestNG_Example_Annotations] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-04 09:18:10,985 [Worker-71: Launching TestNG_Example_Annotations] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-04 12:39:01,867 [Worker-71: Launching TestNG_Example_Annotations] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-04 12:39:01,868 [Worker-71: Launching TestNG_Example_Annotations] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-04 12:39:01,869 [Worker-71: Launching TestNG_Example_Annotations] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-04 12:39:01,870 [Worker-71: Launching TestNG_Example_Annotations] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

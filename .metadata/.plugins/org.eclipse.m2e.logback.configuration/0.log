@@ -851,3 +851,7 @@
 2023-04-07 09:42:42,052 [Worker-159: Launching SimpleTestCase] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-04-07 09:42:42,054 [Worker-159: Launching SimpleTestCase] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-04-07 09:42:42,055 [Worker-159: Launching SimpleTestCase] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-04-07 16:12:36,597 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@563646ee{STOPPING}[10.0.9,sto=0]
+2023-04-07 16:12:36,629 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@261c534{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-04-07 16:12:36,790 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6d2033a{/help,null,STOPPED}
+2023-05-04 08:41:12,976 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

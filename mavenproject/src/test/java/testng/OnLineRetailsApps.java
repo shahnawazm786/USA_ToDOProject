@@ -11,18 +11,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class OnLineRetailsApps {
 	WebDriver driver;
+	String url=null;
 	@BeforeSuite
 	public void setup() {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		driver.get("");
+		url=System.getProperty("siteUrl");
+		driver.get(url);
 		
 
 	}
 	@Test
 	public void login_test() {
-		
+		System.out.println(url);
 	}
 }

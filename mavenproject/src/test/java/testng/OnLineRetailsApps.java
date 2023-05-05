@@ -2,6 +2,7 @@ package testng;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
@@ -16,6 +17,10 @@ public class OnLineRetailsApps {
 	String url=null;
 	String userName=null;
 	String password=null;
+	String txt_user_name_by_name="username";
+	String txt_password_by_name="password";
+	String btn_login_by_xpath="//button[@type='submit']";
+	
 	@BeforeSuite
 	public void start() {
 		WebDriverManager.chromedriver().setup();
@@ -32,14 +37,21 @@ public class OnLineRetailsApps {
 		url=System.getProperty("siteUrl");
 		userName=System.getProperty("user");
 		password=System.getProperty("password");
+		System.out.println(System.getProperty("studentName"));
 		driver.get(url);
 		
 	}
 	
 	@Test
 	public void login_test() {
-	System.out.println(userName);
-	System.out.println(password);
+		System.out.println(userName);
+		System.out.println(password);
+		driver.findElement(By.name(txt_user_name_by_name)).clear();
+		driver.findElement(By.name(txt_user_name_by_name)).sendKeys(userName);
+		driver.findElement(By.name(txt_password_by_name)).clear();
+		driver.findElement(By.name(txt_password_by_name)).sendKeys(password);
+		driver.findElement(By.xpath(btn_login_by_xpath)).click();
+	
 	}
 	
 	@AfterSuite

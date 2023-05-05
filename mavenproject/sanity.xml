@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Sanity Suites" >
+  <test thread-count="2" name="Sanity Test">
+    <classes>
+     <!-- <class name="test_case.SimpleTestCase"/>
+      <class name="testng.TestNG_Example_Annotations"/>
+      <class name="testng.OnLineRetailsApps"/>
+      <class name="testng.Depends_Group_TestNG_Example"/>
+      <class name="testng.Thread_Count_Example"/> 
+      <class name="test_case.TestNGExample"/>-->
+      <class name="testng.TestNG_Example"/>
+    </classes>
+  </test> <!-- Sanity Test -->
+</suite> <!-- Sanity Suites -->

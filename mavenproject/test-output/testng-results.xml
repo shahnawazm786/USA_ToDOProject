@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-04T13:14:38 IST" name="Default suite" finished-at="2023-05-04T13:14:43 IST" duration-ms="5227">
+  <suite started-at="2023-05-05T09:20:25 IST" name="Default suite" finished-at="2023-05-05T09:20:30 IST" duration-ms="5110">
     <groups>
     </groups>
-    <test started-at="2023-05-04T13:14:38 IST" name="Default test" finished-at="2023-05-04T13:14:43 IST" duration-ms="5227">
+    <test started-at="2023-05-05T09:20:25 IST" name="Default test" finished-at="2023-05-05T09:20:30 IST" duration-ms="5110">
       <class name="testng.OnLineRetailsApps">
-        <test-method is-config="true" signature="start()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-04T13:14:36 IST" name="start" finished-at="2023-05-04T13:14:38 IST" duration-ms="1434" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-05T09:20:23 IST" name="start" finished-at="2023-05-05T09:20:25 IST" duration-ms="1758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-04T13:14:38 IST" name="setup" finished-at="2023-05-04T13:14:43 IST" duration-ms="5201" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-05T09:20:25 IST" name="setup" finished-at="2023-05-05T09:20:28 IST" duration-ms="3087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login_test()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-04T13:14:43 IST" name="login_test" finished-at="2023-05-04T13:14:43 IST" duration-ms="3" status="PASS">
+        <test-method signature="login_test()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-05T09:20:28 IST" name="login_test" finished-at="2023-05-05T09:20:30 IST" duration-ms="1987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_test -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-04T13:14:43 IST" name="teardown" finished-at="2023-05-04T13:14:43 IST" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testng.OnLineRetailsApps@710c2b53]" started-at="2023-05-05T09:20:30 IST" name="teardown" finished-at="2023-05-05T09:20:31 IST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -1018,3 +1018,7 @@
 2023-05-05 09:20:23,082 [Worker-115: Launching OnLineRetailsApps] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-05-05 09:20:23,083 [Worker-115: Launching OnLineRetailsApps] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-05 09:20:23,084 [Worker-115: Launching OnLineRetailsApps] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-07 14:00:54,626 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@b499cd1{STOPPING}[10.0.9,sto=0]
+2023-05-07 14:00:54,665 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@75e61682{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-05-07 14:00:54,825 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@302518b4{/help,null,STOPPED}
+2023-05-07 21:12:36,743 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

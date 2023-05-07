@@ -1043,3 +1043,19 @@
 2023-05-07 21:22:20,375 [Worker-8: Launching mavenproject_testng-parameter.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-05-07 21:22:20,382 [Worker-8: Launching mavenproject_testng-parameter.xml] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-07 21:22:20,383 [Worker-8: Launching mavenproject_testng-parameter.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-07 21:32:56,809 [Worker-47: Launching DataProviderExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:32:56,811 [Worker-47: Launching DataProviderExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-07 21:32:56,812 [Worker-47: Launching DataProviderExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:32:56,855 [Worker-47: Launching DataProviderExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-07 21:33:27,138 [Worker-46: Launching DataProviderExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:33:27,139 [Worker-46: Launching DataProviderExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-07 21:33:27,139 [Worker-46: Launching DataProviderExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:33:27,140 [Worker-46: Launching DataProviderExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-07 21:33:45,054 [Worker-34: Launching DataProviderExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:33:45,055 [Worker-34: Launching DataProviderExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-07 21:33:45,055 [Worker-34: Launching DataProviderExample] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:33:45,056 [Worker-34: Launching DataProviderExample] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-07 21:35:44,189 [Worker-8: Launching DataProiver_1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:35:44,190 [Worker-8: Launching DataProiver_1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-07 21:35:44,192 [Worker-8: Launching DataProiver_1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-07 21:35:44,195 [Worker-8: Launching DataProiver_1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

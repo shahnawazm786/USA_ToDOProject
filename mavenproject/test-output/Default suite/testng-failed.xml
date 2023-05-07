@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.Thread_Count_Example">
+      <class name="testng.DataParameterExample">
         <methods>
-          <include name="Login_Test_Not_run"/>
+          <include name="getData"/>
         </methods>
-      </class> <!-- testng.Thread_Count_Example -->
+      </class> <!-- testng.DataParameterExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.DataProviderExample">
+      <class name="testnglistner.TestExample">
         <methods>
-          <include name="displayData"/>
+          <include name="testSkipped"/>
+          <include name="testFailed"/>
         </methods>
-      </class> <!-- testng.DataProviderExample -->
+      </class> <!-- testnglistner.TestExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

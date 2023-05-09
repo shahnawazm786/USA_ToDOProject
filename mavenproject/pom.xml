@@ -10,9 +10,7 @@
   
   
   <dependencies>
-  
  <!-- dependency for cucumber example -->
-  
   <dependency>
     <groupId>io.cucumber</groupId>
     <artifactId>cucumber-java</artifactId>

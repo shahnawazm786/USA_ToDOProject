@@ -49,4 +49,50 @@ public void user_can_see_logout_link() {
     //throw new io.cucumber.java.PendingException();
 }
 
+
+@When("user enter user id {string}")
+public void user_enter_user_id(String user) {
+	System.out.println("user name \t"+user);
+    // Write code here that turns the phrase above into concrete actions
+    //throw new io.cucumber.java.PendingException();
+}
+
+@When("user enter password {string}")
+public void user_enter_password(String string) {
+	System.out.println("password is \t"+string);
+	// Write code here that turns the phrase above into concrete actions
+    //throw new io.cucumber.java.PendingException();
+}
+
+@When("user click on Signin button")
+public void user_click_on_signin_button() {
+	System.out.println("Click on sing in button");
+    // Write code here that turns the phrase above into concrete actions
+    //throw new io.cucumber.java.PendingException();
+}
+
+@When("user click on sing in button")
+public void user_click_on_sing_in_button() {
+	System.out.println("Click on sing in button");
+    // Write code here that turns the phrase above into concrete actions
+    //throw new io.cucumber.java.PendingException();
+}
+
+
+@When("user select {double} shoe")
+public void user_select_shoe(Double double1) {
+	System.out.println("No of shoes"+double1);
+    // Write code here that turns the phrase above into concrete actions
+    //throw new io.cucumber.java.PendingException();
+}
+
+@Then("user see {double} shoe in the cart")
+public void user_see_shoe_in_the_cart(Double double1) {
+	System.out.println("Rate is "+double1);
+    // Write code here that turns the phrase above into concrete actions
+    //throw new io.cucumber.java.PendingException();
+}
+
+
+
 }

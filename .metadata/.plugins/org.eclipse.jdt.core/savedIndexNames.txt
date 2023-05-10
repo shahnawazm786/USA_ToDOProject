@@ -76,7 +76,6 @@ INDEX VERSION 1.131+C:\eclipseworkspace_morning_batch\.metadata\.plugins\org.ecl
 4227729440.index
 3098377199.index
 1703684451.index
-570318907.index
 112819863.index
 246250178.index
 3247980501.index

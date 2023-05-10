@@ -1249,3 +1249,7 @@
 2023-05-09 09:38:37,567 [Worker-143: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-05-09 09:38:37,568 [Worker-143: Launching login.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-09 09:38:37,568 [Worker-143: Launching login.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-09 10:08:21,778 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@2ef10922{STOPPING}[10.0.9,sto=0]
+2023-05-09 10:08:21,815 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@7c113517{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-05-09 10:08:22,136 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@53d55691{/help,null,STOPPED}
+2023-05-10 10:00:51,150 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

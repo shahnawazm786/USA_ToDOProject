@@ -38,6 +38,7 @@
     <artifactId>gherkin</artifactId>
     <version>26.2.0</version>
 </dependency>
+<!-- Extent Report -->
  <dependency>
 	<groupId>tech.grasshopper</groupId>
 	<artifactId>extentreports-cucumber7-adapter</artifactId>

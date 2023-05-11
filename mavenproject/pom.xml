@@ -38,19 +38,18 @@
     <artifactId>gherkin</artifactId>
     <version>26.2.0</version>
 </dependency>
-<dependency>
-			<groupId>tech.grasshopper</groupId>
-			<artifactId>extentreports-cucumber6-adapter</artifactId>
-			<version>2.0.0</version>
-			<scope>test</scope>
-		</dependency>
+ <dependency>
+	<groupId>tech.grasshopper</groupId>
+	<artifactId>extentreports-cucumber7-adapter</artifactId>
+	<version>1.7.0</version>
+</dependency>
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-		<dependency>
+	<!--	<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>5.0.4</version>
 		</dependency>
-
+-->
 
   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>

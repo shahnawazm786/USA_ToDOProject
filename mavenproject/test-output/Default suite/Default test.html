@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 11 09:11:42 IST 2023</td>
+<td>Started on:</td><td>Sat May 20 18:06:59 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2745 ms)</td>
+<tr><td>Total time:</td><td>12 seconds (12303 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -70,31 +70,36 @@ function toggleAllBoxes() {
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='stepdefs.Runner.CucumberRunnerClass.runScenario()'><b>runScenario</b><br>Test class: stepdefs.Runner.CucumberRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credential", "Login"</td>
-<td><div><pre>java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertFalse(Assert.java:78)
-	at org.testng.Assert.assertFalse(Assert.java:88)
-	at stepdefs.LoginStepDefs.user_visit_to_login_page(LoginStepDefs.java:13)
-	at ✽.user visit to login page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/login.feature:5)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1969969319", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1969969319'><pre>java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertFalse(Assert.java:78)
-	at org.testng.Assert.assertFalse(Assert.java:88)
-	at stepdefs.LoginStepDefs.user_visit_to_login_page(LoginStepDefs.java:13)
-	at ✽.user visit to login page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/login.feature:5)
+<td title='com.example.runner.Runner.runScenario()'><b>runScenario</b><br>Test class: com.example.runner.Runner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Home Page Activity", "Home Page"</td>
+<td><div><pre>java.lang.AssertionError: expected [Get started with nopCommerce - nopCommerce123] but found [Get started with nopCommerce - nopCommerce]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.HomePage.validateGetStartPageTitle(HomePage.java:48)
+	at com.example.stepdefs.NoCommSteps.verify_the_title_of_the_page(NoCommSteps.java:23)
+	at ✽.verify the title of the page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/home.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1096648926", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096648926'><pre>java.lang.AssertionError: expected [Get started with nopCommerce - nopCommerce123] but found [Get started with nopCommerce - nopCommerce]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.HomePage.validateGetStartPageTitle(HomePage.java:48)
+	at com.example.stepdefs.NoCommSteps.verify_the_title_of_the_page(NoCommSteps.java:23)
+	at ✽.verify the title of the page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/home.feature:8)
 </pre></div></td>
-<td>0</td>
-<td>stepdefs.Runner.CucumberRunnerClass@15a34df2</td></tr>
+<td>8</td>
+<td>com.example.runner.Runner@7674f035</td></tr>
 </table><p>
 </body>
 </html>

@@ -9,17 +9,20 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,745</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">12,303</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">stepdefs.Runner.CucumberRunnerClass</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1683776502619</td><td rowspan="1">132</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.example.runner.Runner</td><td><a href="#m0">runScenario</a></td><td rowspan="1">1684586219600</td><td rowspan="1">8264</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">stepdefs.Runner.CucumberRunnerClass#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Login with valid credential&quot;</td><td>&quot;Login&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertFalse(Assert.java:78)
-	at org.testng.Assert.assertFalse(Assert.java:88)
-	at stepdefs.LoginStepDefs.user_visit_to_login_page(LoginStepDefs.java:13)
-	at ✽.user visit to login page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/login.feature:5)
+<h2>Default test</h2><h3 id="m0">com.example.runner.Runner#runScenario</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>&quot;Home Page Activity&quot;</td><td>&quot;Home Page&quot;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Get started with nopCommerce - nopCommerce123] but found [Get started with nopCommerce - nopCommerce]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.HomePage.validateGetStartPageTitle(HomePage.java:48)
+	at com.example.stepdefs.NoCommSteps.verify_the_title_of_the_page(NoCommSteps.java:23)
+	at ✽.verify the title of the page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/home.feature:8)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

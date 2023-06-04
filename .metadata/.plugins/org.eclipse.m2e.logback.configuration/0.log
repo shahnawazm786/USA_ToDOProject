@@ -1686,3 +1686,31 @@
 2023-05-20 18:06:58,138 [Worker-92: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-05-20 18:06:58,138 [Worker-92: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-20 18:06:58,139 [Worker-92: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-20 21:09:22,705 [Worker-105: Launching home.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:09:22,707 [Worker-105: Launching home.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-20 21:09:22,707 [Worker-105: Launching home.feature] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:09:22,708 [Worker-105: Launching home.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-05-20 21:17:38,087 [Worker-97: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:17:38,091 [Worker-97: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-20 21:17:38,094 [Worker-97: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:17:38,097 [Worker-97: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2023-05-20 21:19:47,377 [Worker-97: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:19:47,378 [Worker-97: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-20 21:19:47,378 [Worker-97: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:19:47,379 [Worker-97: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2023-05-20 21:28:24,324 [Worker-112: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:28:24,325 [Worker-112: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-20 21:28:24,326 [Worker-112: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:28:24,327 [Worker-112: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2023-05-20 21:31:00,125 [Worker-119: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:31:00,126 [Worker-119: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-20 21:31:00,126 [Worker-119: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:31:00,127 [Worker-119: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2023-05-20 21:34:21,554 [Worker-119: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:34:21,555 [Worker-119: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-20 21:34:21,556 [Worker-119: Launching Runner] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-20 21:34:21,556 [Worker-119: Launching Runner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-05-27 14:00:31,547 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped Server@52084469{STOPPING}[10.0.9,sto=0]
+2023-05-27 14:00:31,567 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@14a87512{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2023-05-27 14:00:31,593 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@4876c3e6{/help,null,STOPPED}
+2023-06-04 15:55:15,966 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

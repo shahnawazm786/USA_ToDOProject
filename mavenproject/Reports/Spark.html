@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">May 11, 2023 08:54:27 AM</span></a>
+<a href="#"><span class="badge badge-primary">May 20, 2023 09:34:22 PM</span></a>
 </li>
 </ul>
 </div>
@@ -45,6 +45,11 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('category-view')">
@@ -71,7 +76,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -79,31 +84,31 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@cart</a><a class="dropdown-item" href="#">@cart_shoes</a>
+<a class="dropdown-item" href="#">@nopcommerce</a><a class="dropdown-item" href="#">@homepage</a><a class="dropdown-item" href="#">@nopsanity</a><a class="dropdown-item" href="#">@productpage</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="fail" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Cart Feature</p>
+            <p class="name">Home Page</p>
             <p class="text-sm">
-              <span>8:54:27 AM</span> / <span>00:00:00:009</span>
-              <span class="badge pass-bg log float-right">Pass</span>
+              <span>9:34:23 PM</span> / <span>00:00:24:541</span>
+              <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">Cart Feature</h5>
-<span class='badge badge-success'>05.11.2023 8:54:27 AM</span>
-<span class='badge badge-danger'>05.11.2023 8:54:27 AM</span>
-<span class='badge badge-default'>00:00:00:009</span>
+<h5 class="test-status text-fail">Home Page</h5>
+<span class='badge badge-success'>05.20.2023 9:34:23 PM</span>
+<span class='badge badge-danger'>05.20.2023 9:34:47 PM</span>
+<span class='badge badge-default'>00:00:24:541</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -115,23 +120,75 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Cart item</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Home Page Activity</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.example.stepdefs.NoCommSteps.open_the_application()">
+                <span>Given Validate home page title</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.example.stepdefs.NoCommSteps.clik_on_get_started()">
+                <span>When clik on get started</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.example.stepdefs.NoCommSteps.verify_the_title_of_the_page()">
+                <span>Then verify the title of the page</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: expected [Get started with nopCommerce - nopCommerce12345] but found [Get started with nopCommerce - nopCommerce]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at pages.HomePage.validateGetStartPageTitle(HomePage.java:49)
+	at com.example.stepdefs.NoCommSteps.verify_the_title_of_the_page(NoCommSteps.java:25)
+	at ✽.verify the title of the page(file:///C:/eclipseworkspace_morning_batch/mavenproject/src/test/resources/features/home.feature:8)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.example.stepdefs.Hooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>home1
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Reports/Screenshots/embedded1.png' src="../Reports/Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="8"><span class="badge log pass-bg mr-2">Pass</span>Product Page Activity</div>
       </div>
     </div>
         <div class="collapse">
           <div class="card-body">
-              <div class="step pass-bg" title="stepdefs.LoginStepDefs.user_visit_to_login_page()">
-                <span>Given user visit to login page</span>
+              <div class="step pass-bg" title="com.example.stepdefs.NoCommSteps.open_the_application()">
+                <span>Given Validate home page title</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefs.LoginStepDefs.user_select_shoe(java.lang.Double)">
-                <span>When user select 1.25 shoe</span>
+              <div class="step pass-bg" title="com.example.stepdefs.NoCommSteps.clik_on_product_menu()">
+                <span>When clik on product menu</span>
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepdefs.LoginStepDefs.user_see_shoe_in_the_cart(java.lang.Double)">
-                <span>Then user see 1.45 shoe in the cart</span>
+              <div class="step pass-bg" title="com.example.stepdefs.NoCommSteps.verify_the_title_of_the_product_page()">
+                <span>Then verify the title of the product page</span>
       <div>
       </div>
               </div>
@@ -150,26 +207,26 @@
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view category-view attributes-view">
+<div class="test-wrapper row view exception-view attributes-view">
 <div class="test-list">
 <div class="test-list-tools">
-<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">@cart</p>
+<p class="name">java.lang.AssertionError</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@cart</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -180,13 +237,161 @@
 </tr>
 </thead>
 <tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:34:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>Then verify the title of the page</a>
+<div class="">
+<span class="badge badge-default">Home Page.Home Page Activity.Then verify the title of the page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">4</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@nopcommerce</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@nopcommerce</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:34:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Home Page Activity</a>
+<div class="">
+<span class="badge badge-default">Home Page.Home Page Activity</span>
+</div>
+</td>
+</tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:54:27 AM</td>
+<td>21:34:38 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Cart item</a>
+<a href="#" class="linked" test-id='1' id='8'>Product Page Activity</a>
 <div class="">
-<span class="badge badge-default">Cart Feature.Cart item</span>
+<span class="badge badge-default">Home Page.Product Page Activity</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@homepage</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@homepage</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:34:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Home Page Activity</a>
+<div class="">
+<span class="badge badge-default">Home Page.Home Page Activity</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@nopsanity</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@nopsanity</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>21:34:23 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Home Page Activity</a>
+<div class="">
+<span class="badge badge-default">Home Page.Home Page Activity</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>21:34:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='8'>Product Page Activity</a>
+<div class="">
+<span class="badge badge-default">Home Page.Product Page Activity</span>
 </div>
 </td>
 </tr>
@@ -199,12 +404,12 @@
 <span class="meta">
 <span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">@cart_shoes</p>
+<p class="name">@productpage</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@cart_shoes</h4>
+<h4>@productpage</h4>
 <span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -218,11 +423,11 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:54:27 AM</td>
+<td>21:34:38 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Cart item</a>
+<a href="#" class="linked" test-id='1' id='8'>Product Page Activity</a>
 <div class="">
-<span class="badge badge-default">Cart Feature.Cart item</span>
+<span class="badge badge-default">Home Page.Product Page Activity</span>
 </div>
 </td>
 </tr>
@@ -243,25 +448,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>May 11, 2023 08:54:27 AM</h3>
+<h3>May 20, 2023 09:34:22 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>May 11, 2023 08:54:27 AM</h3>
+<h3>May 20, 2023 09:34:47 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Features Passed</p>
-<h3>1</h3>
+<h3>0</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Features Failed</p>
-<h3>0</h3>
+<h3>1</h3>
 </div></div>
 </div>
 </div>
@@ -277,12 +482,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'>
-<b>1</b> features passed
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
 </small>
 </div>
 <div>
-<small data-tooltip='0%'><b>0</b> features failed,
+<small data-tooltip='100%'><b>1</b> features failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -300,9 +505,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> scenarios failed,
+<small data-tooltip='50%'><b>1</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -320,9 +525,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>3</b> steps passed</small></div>
+<div><small data-tooltip='85%'><b>6</b> steps passed</small></div>
 <div>
-<small data-tooltip='0%'><b>0</b> steps failed,
+<small data-tooltip='14%'><b>1</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -339,7 +544,7 @@
 </div></div>
 <script>
 var timeline = {
-"Cart Feature":0.009
+"Home Page":24.541
 };
 </script>
 <div class="row">
@@ -349,15 +554,31 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@cart</td>
+<td>@nopcommerce</td>
+<td>1</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>100%</td>
+<td>50%</td>
 </tr>
 <tr>
-<td>@cart_shoes</td>
+<td>@homepage</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@nopsanity</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@productpage</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
@@ -373,19 +594,19 @@ var timeline = {
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 1,
-failParent: 0,
+passParent: 0,
+failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
 passChild: 1,
-failChild: 0,
+failChild: 1,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 3,
-failGrandChild: 0,
+passGrandChild: 6,
+failGrandChild: 1,
 warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,

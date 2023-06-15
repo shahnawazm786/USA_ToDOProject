@@ -2473,3 +2473,132 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2023-06-15 16:19:39,441 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproject/src/test/java
 2023-06-15 16:19:39,441 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproject/src/test/resources
 2023-06-15 16:19:39,635 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 16:29:40,296 [Worker-158: Launching maventestngproject_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:29:40,296 [Worker-158: Launching maventestngproject_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\maventestngproject\src\main\resources
+2023-06-15 16:29:40,297 [Worker-158: Launching maventestngproject_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:29:40,297 [Worker-158: Launching maventestngproject_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 16:35:56,326 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: testngproject:maventestngproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproject\pom.xml.
+2023-06-15 16:35:56,606 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:35:56,606 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\maventestngproject\src\main\resources
+2023-06-15 16:35:56,607 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:35:56,609 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 16:36:55,942 [Worker-165: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:36:55,942 [Worker-165: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\maventestngproject\src\main\resources
+2023-06-15 16:36:55,942 [Worker-165: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:36:55,943 [Worker-165: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 16:37:17,660 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:37:17,660 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\maventestngproject\src\main\resources
+2023-06-15 16:37:17,661 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:37:17,661 [Worker-162: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 16:38:00,074 [Worker-166: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:38:00,075 [Worker-166: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\maventestngproject\src\main\resources
+2023-06-15 16:38:00,075 [Worker-166: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:38:00,075 [Worker-166: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 16:38:17,182 [Worker-164: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:38:17,182 [Worker-164: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\maventestngproject\src\main\resources
+2023-06-15 16:38:17,183 [Worker-164: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 16:38:17,183 [Worker-164: Launching MyRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:27:56,223 [Worker-168: Creating project "maventestngproj"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:27:56,255 [Worker-168: Creating project "maventestngproj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/main/java
+2023-06-15 17:27:56,255 [Worker-168: Creating project "maventestngproj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/main/resources
+2023-06-15 17:27:56,255 [Worker-168: Creating project "maventestngproj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/test/java
+2023-06-15 17:27:56,255 [Worker-168: Creating project "maventestngproj"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/test/resources
+2023-06-15 17:28:39,068 [Worker-170: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 17:28:39,086 [Worker-170: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:28:39,133 [Worker-170: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/main/java
+2023-06-15 17:28:39,133 [Worker-170: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/main/resources
+2023-06-15 17:28:39,135 [Worker-170: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/test/java
+2023-06-15 17:28:39,136 [Worker-170: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/test/resources
+2023-06-15 17:28:39,182 [Worker-170: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 17:29:33,424 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 17:29:33,441 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:29:33,752 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/main/java
+2023-06-15 17:29:33,752 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/main/resources
+2023-06-15 17:29:33,752 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/test/java
+2023-06-15 17:29:33,752 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/test/resources
+2023-06-15 17:29:34,026 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 17:30:59,060 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 17:30:59,081 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:30:59,339 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/main/java
+2023-06-15 17:30:59,339 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/main/resources
+2023-06-15 17:30:59,339 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/test/java
+2023-06-15 17:30:59,339 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/test/resources
+2023-06-15 17:30:59,447 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 17:31:43,733 [Worker-169: Launching maventestngproj_testng.xml] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:31:43,981 [Worker-169: Launching maventestngproj_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:31:43,981 [Worker-169: Launching maventestngproj_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:31:43,982 [Worker-169: Launching maventestngproj_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:31:43,982 [Worker-169: Launching maventestngproj_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:32:03,078 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 17:32:03,107 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:32:03,384 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/main/java
+2023-06-15 17:32:03,384 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/main/resources
+2023-06-15 17:32:03,384 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/test/java
+2023-06-15 17:32:03,384 [Worker-171: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/test/resources
+2023-06-15 17:32:03,521 [Worker-171: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 17:34:19,678 [Worker-169: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:34:19,678 [Worker-169: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:34:19,679 [Worker-169: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:34:19,679 [Worker-169: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:35:09,456 [Worker-167: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-15 17:35:09,457 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\main\resources
+2023-06-15 17:35:09,458 [Worker-167: Building Workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-06-15 17:35:09,458 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\eclipseworkspace_morning_batch\ToDoJavaProject\src\test\resources
+2023-06-15 17:35:15,721 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:35:15,721 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:35:15,722 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:35:15,722 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2023-06-15 17:35:15,753 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:35:15,753 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:35:15,753 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:35:15,754 [Worker-167: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:35:32,364 [Worker-167: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:35:32,364 [Worker-167: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:35:32,365 [Worker-167: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:35:32,365 [Worker-167: Launching test.feature] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:37:34,706 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.9; built: 2022-03-30T16:46:32.527Z; git: a9eaf8d5d73369acf610ce88f850c0d56c4b1113; jvm 11.0.16.1+1-LTS-1
+2023-06-15 17:37:34,732 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2023-06-15 17:37:34,760 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@65b350a7{/help,null,AVAILABLE}
+2023-06-15 17:37:34,782 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@160f7916{HTTP/1.1, (http/1.1)}{127.0.0.1:62204}
+2023-06-15 17:37:34,784 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@e02a605{STARTING}[10.0.9,sto=0] @956571163ms
+2023-06-15 17:39:09,634 [Worker-169: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:39:09,634 [Worker-169: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:39:09,635 [Worker-169: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:39:09,635 [Worker-169: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:39:49,313 [Worker-175: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:39:49,313 [Worker-175: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:39:49,315 [Worker-175: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:39:49,316 [Worker-175: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:41:21,982 [Worker-174: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:41:21,982 [Worker-174: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-06-15 17:41:21,983 [Worker-174: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-15 17:41:21,983 [Worker-174: Launching TestNGRunner] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-06-15 17:46:08,734 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 17:46:09,015 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: maventestngproj:maventestngproj:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\maventestngproj\pom.xml.
+2023-06-15 17:46:09,302 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/main/java
+2023-06-15 17:46:09,302 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/main/resources
+2023-06-15 17:46:09,302 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /maventestngproj/src/test/java
+2023-06-15 17:46:09,302 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /maventestngproj/src/test/resources
+2023-06-15 17:46:09,502 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 17:46:19,991 [Worker-176: Launching Executing test in C__eclipseworkspace_morning_batch_maventestngproj] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipseworkspace_morning_batch\maventestngproj
+2023-06-15 17:46:19,991 [Worker-176: Launching Executing test in C__eclipseworkspace_morning_batch_maventestngproj] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-06-15 18:13:31,102 [Worker-180: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 18:13:31,181 [Worker-180: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-06-15 18:13:31,443 [Worker-180: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-06-15 18:13:31,444 [Worker-180: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-06-15 18:13:31,444 [Worker-180: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-06-15 18:13:31,444 [Worker-180: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-06-15 18:13:31,603 [Worker-180: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 18:13:41,078 [Worker-180: Launching Executing test in C__eclipseworkspace_morning_batch_mavenproject] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipseworkspace_morning_batch\mavenproject
+2023-06-15 18:13:41,078 [Worker-180: Launching Executing test in C__eclipseworkspace_morning_batch_mavenproject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-06-15 18:14:49,241 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-06-15 18:14:49,272 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo.maven.project:mavenproject:0.0.1-SNAPSHOT @ C:\eclipseworkspace_morning_batch\mavenproject\pom.xml.
+2023-06-15 18:14:49,622 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/main/java
+2023-06-15 18:14:49,623 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/main/resources
+2023-06-15 18:14:49,623 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mavenproject/src/test/java
+2023-06-15 18:14:49,623 [Worker-168: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mavenproject/src/test/resources
+2023-06-15 18:14:49,771 [Worker-168: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2023-06-15 18:15:01,494 [Worker-168: Launching Executing test in C__eclipseworkspace_morning_batch_mavenproject] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipseworkspace_morning_batch\mavenproject
+2023-06-15 18:15:01,494 [Worker-168: Launching Executing test in C__eclipseworkspace_morning_batch_mavenproject] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2023-06-15 18:18:13,652 [Worker-179: Launching Executing test in C__eclipseworkspace_morning_batch_maventestngproj] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\eclipseworkspace_morning_batch\maventestngproj
+2023-06-15 18:18:13,652 [Worker-179: Launching Executing test in C__eclipseworkspace_morning_batch_maventestngproj] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
